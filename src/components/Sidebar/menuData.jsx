@@ -8,23 +8,23 @@ import { SettingIcon } from '../icons/Setting';
 
 export const menuItems = [
     {
-        path: 'another',
+        path: 'another_1',
         element: <CalendarIcon />
     },
     {
-        path: 'another',
+        path: 'another_2',
         element: <FileIcon />
     },
     {
-        path: 'another',
+        path: 'another_3',
         element: <FolderIcon />
     },
     {
-        path: 'another',
+        path: 'another_4',
         element: <PeopleIcon />
     },
     {
-        path: 'another',
+        path: 'another_5',
         element: <MoneyIcon />
     },
     {
@@ -32,7 +32,7 @@ export const menuItems = [
         element: <ChartIcon />
     },
     {
-        path: 'another',
+        path: 'another_6',
         element: <SettingIcon />
     },
 ]

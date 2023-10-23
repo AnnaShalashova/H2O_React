@@ -8,17 +8,20 @@
         padding-top: 55px;
 
         .nav-item {
-            margin: 23px 0 23px 0;
-            cursor: pointer;
+            margin: 23px 30px;
             padding-top: 5px;
             border-radius: 16px;
             width: 60px;
-            margin-left: 26px;
+
+            a {
+                cursor: pointer;
+            }
         }
 
         .logo {
-            // margin: 55px 0;
             cursor: pointer;
+            margin: 0 25px;
+            width: 70px;
 
         }
 

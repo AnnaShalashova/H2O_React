@@ -24,7 +24,6 @@ ChartJS.register(
 );
 
 const Chart = ({ types }) => {
-
     const options = {
         responsive: true,
         plugins: {
@@ -38,7 +37,6 @@ const Chart = ({ types }) => {
                         return ChartJS.defaults.plugins.legend.labels
                             .generateLabels(chart).map((label) => {
                                 let dataset = chart.data.datasets[label.datasetIndex];
-                                console.log('ChartJS.defaults.plugins', ChartJS.defaults);
                                 let total = 0;
                                 for (let j = 0; j < dataset.data.length; j++) {
                                     total += dataset.data[j];
@@ -50,9 +48,7 @@ const Chart = ({ types }) => {
                     boxWidth: 30,
                     boxHeight: 30,
                     useBorderRadius: true,
-                    borderRadius: 15,
-
-                    // text: '!'
+                    borderRadius: 15
                 }
             }
         },
@@ -63,7 +59,6 @@ const Chart = ({ types }) => {
                     display: false
                 }
             }
-
         }
     };
 
