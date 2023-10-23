@@ -1,0 +1,13 @@
+.app-wrapper {
+    display: flex;
+    height: max-content;
+}
+
+.page-container {
+    background-color: white;
+    overflow-y: hidden;
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(180deg, rgba(84, 211, 194, 1) 0%, rgba(48, 137, 138, 1) 100%);
+
+}

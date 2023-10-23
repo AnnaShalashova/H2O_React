@@ -1,0 +1,30 @@
+.nav {
+    width: 125px;
+    background: linear-gradient(180deg, rgba(84, 211, 194, 1) 0%, rgba(48, 137, 138, 1) 100%);
+    border-radius: 40px 0 0 40px;
+
+    .nav-list {
+        text-align: center;
+        padding-top: 55px;
+
+        .nav-item {
+            margin: 23px 0 23px 0;
+            cursor: pointer;
+            padding-top: 5px;
+            border-radius: 16px;
+            width: 60px;
+            margin-left: 26px;
+        }
+
+        .logo {
+            // margin: 55px 0;
+            cursor: pointer;
+
+        }
+
+        .nav-active {
+            background-color: #A9E9E0BF;
+        }
+
+    }
+}
